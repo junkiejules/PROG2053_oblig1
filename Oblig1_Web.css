@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_Black';
+    src: url(Roboto/Roboto-Black.ttf);
+}
+
+body {
+    margin: auto;
+    font-family: Roboto;
+}
+
+header {
+    background-color: #1f2936;
+    padding: 1%;
+    text-align: center;
+}
+
+header h3 {
+    color: #fbfbfb;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+}
+
+hr {
+    margin: auto;
+    border-color: rgb(166, 168, 169);
+    border-bottom: 0px;
+}
+
+#top {
+    background-color: #1f2936;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 2% 23%;
+}
+
+#information {
+    color: white;
+    width: 50%;
+}
+
+#information h1 {
+    font-family: 'Roboto_Black';
+}
+
+#top button {
+    background-color: #3782f5;
+    color: white;              
+    padding: 5px 20px;           
+    border: none;                
+    border-radius: 8px;         
+    font-size: 12px;  
+    font-weight: bold; 
+    cursor: pointer;       
+}
+
+#placeholder {
+    text-align: center;
+    background-color: #6d737d;
+    padding: 10% 0%;
+    margin: auto;
+    width: 50%;
+    color: whitesmoke;
+
+}
+
+#info h1 {
+    font-family: 'Roboto_Black';
+    text-align: center;
+    color: #3b4148;
+}
+
+#mid_section > div {
+    margin: 2%;
+}
+
+#mid_section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 2% 18%;
+    margin: 2% 5%;
+}
+
+.article {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    color: #3b4148;
+}
+
+.box {
+    border: 0.3em solid #3782f5;
+    width: 15%;
+    height: 45%;
+    border-radius: 0.5em;
+    padding: 8% 7%;
+}
+
+#quote {
+    text-shadow: 2px 2px 3px darkgray;
+    height: 200px;
+    background-color: #e4e5eb;
+    padding: 20px;              
+    text-align: center;        
+    align-content: center;
+}
+
+#right {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 40%;
+    text-shadow: none;
+}
+
+#sign_up {
+    background-color: #3782f5;
+    color: white;
+    display: flex;
+    margin: 5% 20%; 
+    padding: 2% 6%;
+    border-radius: 0.6em;
+    align-items: center;
+    align-content: center;
+}
+
+#sign_up > p {
+    width: 80%;
+    margin: 1%;
+}
+
+#sign_up button {
+    background-color: #3782f5;
+    color: white;           
+    padding: 5px 20px; 
+    border: white solid;                
+    border-radius: 8px;         
+    font-size: 12px;  
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1f2936;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 0.5%;
+}
+
+/*Page 2*/
+.container {
+    width: 600px;
+    margin: auto;
+    float: none;
+}
+
+article {
+    width: 30%;
+    padding: 1.5%;
+    float: left;
+}
+
+.clearfix {
+    margin: auto;
+    float: none;
+    clear: both;
+}
+
+/*Page 3*/
+#data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    row-gap: 5vh;
+    width: 70%;
+    margin: 4.7% auto;
+}
+
+#data div {
+    display: inline-block;
+    width: 25%;
+    border-radius: 3em;
+    background-color: pink;
+    text-align: center;
+    color: white;
+    padding: 0.5%;
+}
+
